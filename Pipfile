@@ -4,10 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pytest = "*"
 flask = "*"
 flask-restplus = "*"
-pytest = "*"
 pytest-flask = "*"
+werkzeug = "*"
 
 [dev-packages]
 pylint = "*"
