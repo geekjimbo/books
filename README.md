@@ -9,6 +9,9 @@ for unit testing.
 
 You can find detailed documentation on this boilerplate's set-up [here](https://nikgrozev.com/2018/10/12/python-api-with-flask-and-flask-restplus/). 
 
+# Current Release
+Release 1
+
 # Set Up
 
 Install [Pyenv](https://github.com/pyenv/pyenv) following the [official installation instructions](https://github.com/pyenv/pyenv#installation).
