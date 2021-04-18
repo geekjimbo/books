@@ -6,5 +6,6 @@ def test_get_book(client):
     assert response.status_code == 200
     assert response.json == {
         "id": 1, 
-        "title": "Python for Dummies"
+        "title": "Python for Dummies", 
+        "year": 1966
     }
