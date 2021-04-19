@@ -7,8 +7,8 @@ from models.book import book
 app, api = server.app, server.api
 
 books_db = [
-    {"id": 0, "title": "War and Peace", "author": "John Nash", "year": 1966},
-    {"id": 1, "title": "Python for Dummies", "author": "Prince Phillip", "year": 2020}
+    {"id": 0, "title": "War and Peace", "author": "John Nash", "year": 1966, "country": "Costa Rica"},
+    {"id": 1, "title": "Python for Dummies", "author": "Prince Phillip", "year": 2020, "country": "Germany"}
 ]
 
 @api.route('/books')
